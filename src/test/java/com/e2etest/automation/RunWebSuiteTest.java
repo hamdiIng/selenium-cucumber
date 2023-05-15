@@ -21,7 +21,6 @@ import io.cucumber.junit.CucumberOptions;
 		//glue = {"src\\test\\java\\com\\e2etest\\automation\\step_definitions"},
 		monochrome = true,
 		snippets = CAMELCASE
-		
 		)
 
 /**

@@ -8,4 +8,4 @@ Feature: Je souhaite tester la page de la connexion de l application Swag labs
     When Je saisis le username "standard_user"
     And Je saisi le password "secret_sauce"
     And Je clique sur le bouton Login
-    Then Je me redirige vers la page home"Products"
+    Then Je me redirige vers la page home "Products"

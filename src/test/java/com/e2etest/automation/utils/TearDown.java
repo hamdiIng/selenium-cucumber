@@ -16,7 +16,6 @@ public class TearDown {
 */
 
 @After
-
 public void quitDriver(Scenario scenario) {
 if(scenario.isFailed()) {
 final byte[] screenshot = ((TakesScreenshot) Setup.getDriver()).getScreenshotAs(OutputType.BYTES);
