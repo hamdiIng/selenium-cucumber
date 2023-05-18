@@ -8,12 +8,10 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.e2etest.automation.utils.Setup;
 
-import io.cucumber.java.After;
-
 public class LogoutPage {
+
 	/* Retrieve Element */
 
 	@FindBy(how = How.ID, using = "react-burger-menu-btn")
@@ -31,7 +29,6 @@ public class LogoutPage {
 	}
 
 	/* Methods */
-
 	public void clickBurguerBtn() {
 		btnburger.click();
 	}

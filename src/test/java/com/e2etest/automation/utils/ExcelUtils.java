@@ -70,6 +70,7 @@ public class ExcelUtils {
 	// This method is to write in the Excel cell, Row num and Col num are the
 	// parameters
 
+	@SuppressWarnings("static-access")
 	public static void setCellData(String Result, int RowNum, int ColNum) throws Exception {
 
 		try {
