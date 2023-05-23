@@ -5,7 +5,7 @@ Feature: tester la suppression d un element
   @todoAdd
   Scenario: je souhaite ajouter un texte dans la liste puis le supprimer 
     Given je me connecte a l application 
-    And J ajoute texte dans l input
+    And J ajoute texte dans l input ""
     And Je clique sur le bouton entree du clavier
     And  Je verifie le texte ajoutee
 

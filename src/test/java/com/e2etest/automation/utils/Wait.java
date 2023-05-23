@@ -91,5 +91,10 @@ public class Wait {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		return wait.until(ExpectedConditions.elementToBeClickable(by));
 	}
+	
+	public static WebElement waitUntilCliquable(WebDriver driver, WebElement webElement) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
+		return wait.until(ExpectedConditions.elementToBeClickable(webElement));
+	}
 
 }

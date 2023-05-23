@@ -22,7 +22,7 @@ public class TodoStepDefinition {
 		
 	
 	}
-	@Given("J ajoute texte dans l input")
+	@Given("J ajoute texte dans l input {string}")
 	public void jAjouteTexteDansLInput(String todo) {
 		todoPage.introduireUnText(todo);
 	}
