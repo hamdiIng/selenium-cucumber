@@ -33,7 +33,7 @@ public class LoginStepDefinition {
 		String title_page = LoginPage.titlePage.getText();
 		Assert.assertEquals(title_page, title);
 	}
-	
+
 	/* Login Outline */
 	@Given("Je me connecte sur l application")
 	public void jeMeConnecteSurLApplication() {
@@ -47,7 +47,7 @@ public class LoginStepDefinition {
 
 	@When("Je saisi le password {string}")
 	public void jeSaisiLePassword(String password) {
-		//loginPage.fillPassword(password);
+		// loginPage.fillPassword(password);
 		seleniumUtils.writeText(LoginPage.password, password);
 	}
 
@@ -61,7 +61,5 @@ public class LoginStepDefinition {
 		String text_msg = LoginPage.errorMsg.getText();
 		Assert.assertEquals(text_msg, msg);
 	}
-
-
 
 }
