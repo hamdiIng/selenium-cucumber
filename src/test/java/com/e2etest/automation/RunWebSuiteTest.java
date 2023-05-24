@@ -19,7 +19,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = { "src/spec/features/" }, 
 		plugin = { "pretty", "html:target/cucumber-report.html","json:target/cucumber-report.json" },
-		tags = ("@uploadFileRobot"),
+		tags = ("@PlaceHolder"),
 		// glue = {"src\\test\\java\\com\\e2etest\\automation\\step_definitions"},
 		monochrome = true, snippets = CAMELCASE
 				)
